@@ -1,6 +1,6 @@
 # Express-Utilities
 
-- Package to make life easier for express developers
+- Package to make life easier for developers
 
 ## Usage
 
