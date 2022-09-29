@@ -9,4 +9,7 @@ export * from './time-utilities/helpers';
 export * from './time-utilities/index';
 export * from './@types/index.interfaces';
 export * from './@types/utilities.interfaces';
+export * from './@types/colors.interfaces';
+export * from './regexes';
 export * from './utils/index';
+export * from './colors/';

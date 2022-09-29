@@ -2,22 +2,17 @@ import type { ParsedMs } from "../@types/utilities.interfaces";
 import { parseMs } from "./helpers";
 
 export class Duration {
+    date: Date;
     constructor(protected ms: number) {
         this.ms = ms;
-    }
-    /**
-     * Converts the duration to a date object
-     * @returns {Date} The date object
-     */
-    public toDate(): Date {
-        return new Date(Date.now() + this.ms);
+        this.date = new Date(Date.now() + this.ms)
     }
     /**
      * Converts the duration to a string
      * @returns {string} The string
     */
     public toString(): string {
-        return this.toDate().toString()
+        return this.date.toString()
     }
 
     /**
@@ -26,7 +21,7 @@ export class Duration {
      * @see toString
      */
     public toLocaleString(locale: string): string {
-        return this.toDate().toLocaleString(locale);
+        return this.date.toLocaleString(locale);
     }
 
     /**
@@ -43,7 +38,7 @@ export class Duration {
      * @returns {string} The ISO string
     */
     public toISOString(): string {
-        return this.toDate().toISOString();
+        return this.date.toISOString();
     }
 
     /**
@@ -60,7 +55,7 @@ export class Duration {
      * @returns {boolean} If the date is before
      */
     public isAfter(date: Date): boolean {
-        return this.toDate() > date;
+        return this.date > date;
     }
 
     /**
@@ -69,7 +64,7 @@ export class Duration {
      * @returns {boolean} If the date is before
     */
     public isBefore(date: Date): boolean {
-        return this.toDate() < date;
+        return this.date < date;
     }
 
     /**
@@ -78,7 +73,7 @@ export class Duration {
      * @returns {boolean} If the date is same
     */
     public isSame(date: Date): boolean {
-        return this.toDate() === date;
+        return this.date === date;
     }
 
     /**
