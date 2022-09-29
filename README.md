@@ -3,10 +3,11 @@
 - Package to make life easier for developers
 
 # Features
-- [Express Utilities](https://github.com/gaurishhs/Documatic-Hackathon/blob/main/examples/index.ts)
-- [Regexes](https://github.com/gaurishhs/Documatic-Hackathon/blob/main/examples/regex.ts)
-- [Colors](https://github.com/gaurishhs/Documatic-Hackathon/blob/main/examples/colors.ts)
-- [Time Utilities](https://github.com/gaurishhs/Documatic-Hackathon/blob/main/examples/time-utils/index.ts)
+- [Express Utilities](https://gaurishhs.github.io/Documatic-Hackathon/classes/ExpressUtilities.html)
+- [Regexes](https://gaurishhs.github.io/Documatic-Hackathon/enums/Regexes.html)
+- [Colors](https://github.com/gaurishhs/Documatic-Hackathon/blob/main/examples/colors.ts) 
+- [Color Decorations Enum](https://gaurishhs.github.io/Documatic-Hackathon/enums/Decorations.html)
+- [Time Utilities](https://gaurishhs.github.io/Documatic-Hackathon/classes/Duration.html)
 
 ## Usage
 
