@@ -12,4 +12,6 @@ export * from './@types/utilities.interfaces';
 export * from './@types/colors.interfaces';
 export * from './regexes';
 export * from './utils/index';
-export * from './colors/';
+export * from './colors/index';
+export * from './crypto/index';
+export * from './utils/basic'
