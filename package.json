@@ -14,9 +14,7 @@
     "reflect-metadata": "^0.1.13"
   },
   "scripts": {
-    "start": "node dist/index.js",
     "build": "tsc -p .",
-    "dev": "nodemon src/index.ts",
     "push": "npx typedoc && git add -A && git commit -m \"Some more stuff\" && git push"
   },
   "devDependencies": {
