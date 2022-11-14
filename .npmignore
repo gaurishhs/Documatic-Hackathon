@@ -1,0 +1,12 @@
+.github
+.vscode
+docs
+examples
+node_modules
+src
+types
+.gitignore
+.eslintrc
+.eslintignore
+.prettierrc
+.prettierignore

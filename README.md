@@ -2,6 +2,10 @@
 
 - Package to make life easier for developers
 
+```bash
+npm i etils
+```
+
 # Features
 - [Express Utilities](https://gaurishhs.github.io/Documatic-Hackathon/classes/ExpressUtilities.html)
 - [Regexes](https://gaurishhs.github.io/Documatic-Hackathon/enums/Regexes.html)

@@ -1,0 +1,24 @@
+declare const _default: {
+    red: (text: string) => string;
+    green: (text: string) => string;
+    yellow: (text: string) => string;
+    blue: (text: string) => string;
+    magenta: (text: string) => string;
+    cyan: (text: string) => string;
+    white: (text: string) => string;
+    black: (text: string) => string;
+    bgRed: (text: string) => string;
+    bgGreen: (text: string) => string;
+    bgYellow: (text: string) => string;
+    bgBlue: (text: string) => string;
+    bgMagenta: (text: string) => string;
+    bgCyan: (text: string) => string;
+    bgWhite: (text: string) => string;
+    bgBlack: (text: string) => string;
+    underline: (text: string) => string;
+    reverse: (text: string) => string;
+    bright: (text: string) => string;
+    dim: (text: string) => string;
+    hidden: (text: string) => string;
+};
+export default _default;

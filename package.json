@@ -1,6 +1,8 @@
 {
-  "name": "eutils",
+  "name": "etils",
   "version": "1.0.0",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "dependencies": {
     "ascii-table": "^0.0.9",
     "async-redis": "^2.0.0",
