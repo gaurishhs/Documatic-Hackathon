@@ -2,6 +2,8 @@
 
 - Package to make life easier for developers
 
+https://www.npmjs.com/package/etils
+
 ```bash
 npm i etils
 ```
